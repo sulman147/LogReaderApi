@@ -1,0 +1,5 @@
+@LogReaderApi_HostAddress = http://localhost:5272
+
+### Get System Logs
+GET {{LogReaderApi_HostAddress}}/log
+Accept: application/json
